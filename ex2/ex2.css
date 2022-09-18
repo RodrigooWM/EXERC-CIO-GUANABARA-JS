@@ -1,0 +1,35 @@
+@charset "utf-8";
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(75, 154, 219);
+    color: #fff;
+    text-align: center;
+    margin: auto;
+    width: 500px;
+}
+input{
+
+}
+div{
+    color: #000;
+    margin: auto;
+    padding: 10px;
+    text-align: justify;
+
+    
+}
+section{
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: black 4px 6px 6px;
+}
+img{
+    width: 250px;
+    height: 250px;
+}
+footer{
+    margin: 30px;
+}
+img#foto{
+    margin-top: 20px;
+}

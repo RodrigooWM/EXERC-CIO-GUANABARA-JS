@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ex2.css">
+    <title>EX.02</title>
+</head>
+<body>
+    <header>
+        <h1>Verificador de faixa etária</h1>
+    </header>
+    <section>       
+        <div id="dados">
+            <p>Ano de Nascimento:</p>
+            <input type="number" id="anon" name="anon" placeholder="ANO" maxlength="4" min="0">
+            <p>Sexo:</p>            
+            <input type="radio" id="mas" name="marc"> <!-- Se usarmos o MESMO NAME nos dois "input radio" ele não deixará marcar mais de um ao mesmo tempo. -->
+            <label for="mas">Masculino</label>            
+            <input type="radio" id="fem" name="marc">
+            <label for="fem">Feminino</label>
+            <input type="radio" id="neu" name="marc">
+            <label for="neu">Neutro</label>
+            <p><input id="ver" type="button" value="verificar" onclick="calcular()"></p>
+        </div>
+
+        <div id="res">
+            Preencha os dados e clique em "salvar"
+        </div >
+        <div id="foto">
+         
+        </div>
+
+    </section>
+    <footer>&copy;IdadeVerify</footer>
+    <script src="ex2.js"></script>      
+</body>
+</html>
